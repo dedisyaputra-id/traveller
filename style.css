@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 0 100px;
+    background: linear-gradient(120deg, #00b4d8, #48cae4);
+    position: fixed;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+header nav{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo{
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+header nav ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron{
+    background-image: url(/assets/images/books-918521_1280.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron h1{
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    bottom:50px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.artikel1{
+    width: 375px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.7) ;
+    border-radius: 5px;
+    padding:  10px;
+    cursor: pointer;
+}
+
+img{
+    max-width: 350px;
+}
+
+h2{
+    position: relative;
+    bottom: 118px;
+    color: #fff;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.9);
+    font-size: 1.6em;
+}
+
+.text-read p{
+    position: relative;
+    bottom: 20px;
+    text-align: justify;
+}
+.text-read a{
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+}
+
+.container-video{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: relative;
+}
+
+.container-video .video{
+    margin-right: 25px;
+}
+
+.container-video .text-video{
+    text-align: justify;
+    position: relative;
+    top: 20px;
+}
+
+.audio{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    position: relative;
+    top: 120px;
+}
+
+.audio h1{
+    position: absolute;
+    top: 20px;
+    left: 47%;
+    font-size: 2.5em;
+    color: #48cae4;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-audio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+audio{
+    width:101% ;
+}
+
+.text-audio img{
+    margin-bottom: 10px;
+}
+
+.audio p{
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 30px;
+    text-align: justify;
+}
+
+.container-video h1{
+    position: absolute;
+    top: 20px;
+    left: 47%;
+    font-size: 2.5em;
+    color: #48cae4;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #48cae4;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 146px;
+}
+
+footer{
+    width: 100%;
+    height: 7vh;
+    background-color: #00b4d8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.artikel{
+    position: absolute;
+    left: 58px;
+    margin-top: 3px;
+}
+.artikel2{
+    position: absolute;
+    left: 490px;
+    margin-top: 3px;
+}
+.artikel3{
+    position: absolute;
+    right: 128px;
+    margin-top: 2px;
+}
